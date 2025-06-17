@@ -10,6 +10,8 @@ A project focused on classifying air quality using various neural architectures�
 
 🌐 Gradio Web Interface
 
+🔖 Directory Structure
+
 🚀 Future Improvements
 
 🧰 Tech Stack
@@ -65,6 +67,25 @@ Allows switching between models (Sklearn MLP, Keras MLP, Ensemble)
 Outputs predicted air quality label
 
 Easy-to-use interface with real-time predictions
+
+## 🔖 Directory Structure
+air-quality-classifier/
+│
+├── code/
+│   ├── air_quality_classification (py)
+│   ├── air_quality_classification (ipynb)
+|
+├── models/
+│   ├── mlp_classifier.pkl
+│   ├── keras_odel.pkl
+│   ├── scaler.pkl
+│   └── label_encoder.pkl
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── data/
+    └── updated_pollution_dataset (1).csv
 
 ## 🚀 Future Improvements
 🔧 Hyperparameter tuning
