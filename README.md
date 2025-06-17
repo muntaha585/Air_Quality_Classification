@@ -1,5 +1,5 @@
 # 🌫️ Air Quality Classification Using Perceptron Models & Neural Networks
-A machine learning project focused on classifying air quality using various neural architectures—from a basic perceptron to advanced MLPs and ensemble methods—along with clustering for data exploration and a deployed Gradio interface for real-time predictions.
+A project focused on classifying air quality using various neural architectures—from a basic perceptron to advanced MLPs and ensemble methods—along with clustering for data exploration and a deployed Gradio interface for real-time predictions.
 
 ## 📑 Table of Contents
 🧠 Models Implemented
@@ -37,33 +37,49 @@ Combines predictions from both MLPs using majority voting to enhance robustness 
 
 ## ⚙️ Preprocessing Steps
 Exploration: Used pandas and seaborn for initial inspection and correlation heatmaps
+
 Missing Values: Checked and handled with .isna().sum()
+
 Outlier Removal: Applied Z-score (>|3|)
+
 Feature Scaling: Used Min-Max normalization
+
 Encoding: Label-encoded target air quality categories
+
 Feature Selection: Selected features with correlation > 0.5
 
 ## 📊 Clustering & Visualization
 Clustering: Applied KMeans to group similar air quality data
+
 Visualization: Used PCA to reduce dimensions and plot clusters in 2D
+
 Insight: Showed clear class boundaries and cluster separations
 
 ## 🌐 Gradio Web Interface
 Interactive deployment using Gradio:
+
 Inputs environmental features
+
 Allows switching between models (Sklearn MLP, Keras MLP, Ensemble)
+
 Outputs predicted air quality label
+
 Easy-to-use interface with real-time predictions
 
 ## 🚀 Future Improvements
 🔧 Hyperparameter tuning
+
 🌲 Add tree-based models (e.g., Random Forest, XGBoost)
+
 ⏳ Time series prediction for trend analysis
+
 🔌 REST API integration for broader deployment
 
 ## 🧰 Tech Stack
 Languages: Python
+
 Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, keras, tensorflow, gradio
+
 Algorithms: Perceptron, MLP, Ensemble Voting, KMeans, PCA
 
 ##📎 License
