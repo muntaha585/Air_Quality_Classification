@@ -85,7 +85,7 @@ Algorithms: Perceptron, MLP, Ensemble Voting, KMeans, PCA
 ##📎 License
 This project is open source and available under the MIT License.
 
-👩‍💻 Author
+##👩‍💻 Author
 Muntaha Nishat
 BS Artificial Intelligence
 ✉️ Email: muntahanishat555@gmail.com
