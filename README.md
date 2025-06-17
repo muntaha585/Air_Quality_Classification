@@ -1,6 +1,23 @@
 # 🌫️ Air Quality Classification Using Perceptron Models & Neural Networks
 A machine learning project focused on classifying air quality using various neural architectures—from a basic perceptron to advanced MLPs and ensemble methods—along with clustering for data exploration and a deployed Gradio interface for real-time predictions.
 
+## 📑 Table of Contents
+🧠 Models Implemented
+
+⚙️ Preprocessing Steps
+
+📊 Clustering & Visualization
+
+🌐 Gradio Web Interface
+
+🚀 Future Improvements
+
+🧰 Tech Stack
+
+📎 License
+
+👩‍💻 Author
+
 ## 🧠 Models Implemented
 1. Hardcoded Perceptron
 A simple single-layer model with fixed weights and a step function. It lacks learning ability but serves as a baseline for comparison.
@@ -16,7 +33,7 @@ A deep neural network with adaptive learning (Adam) and Dropout regularization t
 
 4. Ensemble Model
 Combines predictions from both MLPs using majority voting to enhance robustness and stability.
-🤝 Combined Outputs | 📊 Accuracy: 0.96
+🤝 Combined Outputs | 📊 Accuracy: 0.92
 
 ## ⚙️ Preprocessing Steps
 Exploration: Used pandas and seaborn for initial inspection and correlation heatmaps
@@ -38,35 +55,11 @@ Allows switching between models (Sklearn MLP, Keras MLP, Ensemble)
 Outputs predicted air quality label
 Easy-to-use interface with real-time predictions
 
-## 📈 Model Comparison
-Feature	Hardcoded Perceptron	MLP (Sklearn)	MLP (Keras)	Ensemble
-Training	None (manual weights)	Backpropagation	Adam + Dropout	Voting
-Complexity	Very Low	Moderate	High	High
-Layers	1	1 Hidden	Multi Hidden	Combined
-Accuracy	0.48	0.92	0.94	0.96
-Adaptability	None	Moderate	High	High
-Activation	Step	ReLU, Logistic	ReLU, Softmax	Mixed
-
 ## 🚀 Future Improvements
 🔧 Hyperparameter tuning
 🌲 Add tree-based models (e.g., Random Forest, XGBoost)
 ⏳ Time series prediction for trend analysis
 🔌 REST API integration for broader deployment
-
-## 🔖 Directory Structure
-air-quality-classifier/
-│
-├── models/
-│   ├── mlp_classifier.pkl
-│   ├── keras_model.pkl
-│   ├── scaler.pkl
-│   └── label_encoder.pkl
-│
-├── app.py
-├── requirements.txt
-├── README.md
-└── data/
-    └── air_quality_dataset.csv
 
 ## 🧰 Tech Stack
 Languages: Python
