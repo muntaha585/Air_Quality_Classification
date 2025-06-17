@@ -70,20 +70,35 @@ Easy-to-use interface with real-time predictions
 
 ## 🔖 Directory Structure
 air-quality-classifier/
+
 │
+
 ├── code/
+
 │   ├── air_quality_classification (py)
+
 │   ├── air_quality_classification (ipynb)
+
 |
+
 ├── models/
+
 │   ├── mlp_classifier.pkl
+
 │   ├── keras_odel.pkl
+
 │   ├── scaler.pkl
+
 │   └── label_encoder.pkl
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── data/
     └── updated_pollution_dataset (1).csv
 
