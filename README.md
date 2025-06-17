@@ -97,7 +97,9 @@ air-quality-classifier/
 
 ├── requirements.txt
 
-├── README.md
+├── README.md Air Quality Classification Using Perceptron Models and Advanced Neural Techniques
+
+├── Air Quality Classification Using Perceptron Models and Advanced Neural Techniques (Documentation)
 
 └── data/
     └── updated_pollution_dataset (1).csv
